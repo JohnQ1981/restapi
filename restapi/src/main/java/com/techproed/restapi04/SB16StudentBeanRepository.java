@@ -5,6 +5,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SB16StudentBeanRepository extends JpaRepository<SB15StudentBean, Long>{
+	//data type of primary key ^
+
 
 
 

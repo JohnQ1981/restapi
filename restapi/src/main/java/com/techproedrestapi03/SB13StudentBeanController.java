@@ -17,11 +17,10 @@ public class SB13StudentBeanController {
 		this.studentService=studentService;
 
 	}
-	@GetMapping(path="/alls")
+	@GetMapping(path="/all")
 	public List<SB10StudentBean> getAllStudent(){
 
 		return studentService.getStudentList();
-
 
 
 	}
